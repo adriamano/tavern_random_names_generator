@@ -7,13 +7,13 @@ const thirdNames = ["Caolho", "Bêbado", "Sorridente", "Fiel", "Flatulento", "An
 const getRandomNumber = (max) => Math.floor(Math.random() * max);
 
 const getRandomName1 = () =>
-    `${firstNames[getRandomNumber(firstNames.length)]} ${secondNames[getRandomNumber(secondNames.length)]}`;
+    `${secondNames[getRandomNumber(secondNames.length)]} ${firstNames[getRandomNumber(firstNames.length)]} `;
 
     const getRandomName2 = () =>
     `${firstNames[getRandomNumber(firstNames.length)]} ${thirdNames[getRandomNumber(thirdNames.length)]}`;
 
     const getRandomName3 = () =>
-    `${firstNames[getRandomNumber(firstNames.length)]} ${secondNames[getRandomNumber(secondNames.length)]} ${thirdNames[getRandomNumber(thirdNames.length)]}`;
+    `${secondNames[getRandomNumber(secondNames.length)]} ${firstNames[getRandomNumber(firstNames.length)]} ${thirdNames[getRandomNumber(thirdNames.length)]}`;
 
 
 const setRandomName1 = () => {
