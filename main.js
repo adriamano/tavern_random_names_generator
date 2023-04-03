@@ -6,14 +6,36 @@ const thirdNames = ["Caolho", "Bêbado", "Sorridente", "Fiel", "Flatulento", "An
 
 const getRandomNumber = (max) => Math.floor(Math.random() * max);
 
-const getRandomName = () => 
+const getRandomName1 = () =>
+    `${firstNames[getRandomNumber(firstNames.length)]} ${secondNames[getRandomNumber(secondNames.length)]}`;
+
+    const getRandomName2 = () =>
+    `${firstNames[getRandomNumber(firstNames.length)]} ${thirdNames[getRandomNumber(thirdNames.length)]}`;
+
+    const getRandomName3 = () =>
     `${firstNames[getRandomNumber(firstNames.length)]} ${secondNames[getRandomNumber(secondNames.length)]} ${thirdNames[getRandomNumber(thirdNames.length)]}`;
 
-const setRandomName = () => {
-    document.getElementById('random-name').innerText = getRandomName();
+
+const setRandomName1 = () => {
+    document.getElementById('random-name').innerText = getRandomName1();
 }
 
-document.getElementById('generate')
-    .addEventListener('click', setRandomName);
+const setRandomName2 = () => {
+    document.getElementById('random-name').innerText = getRandomName2();
+}
+
+const setRandomName3 = () => {
+    document.getElementById('random-name').innerText = getRandomName3();
+}
+
+
+document.getElementById('generate1')
+    .addEventListener('click', setRandomName1);
+
+    document.getElementById('generate2')
+    .addEventListener('click', setRandomName2);
+
+    document.getElementById('generate3')
+    .addEventListener('click', setRandomName3);
 
 setRandomName();
