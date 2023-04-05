@@ -10,7 +10,7 @@ body {
     background-image: url('./img/background.jpg');
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 1440px;
+    background-size: 2000px;
 
 }
 
@@ -46,22 +46,19 @@ body {
 }
 
 
-
-
-
-
-
-
-
-#generate1:hover {
+.button1:hover {
     transition: 0.3s;
     filter: contrast(1.5) drop-shadow(0 0 15px red);
 }
-#generate2:hover {
+
+.button2:hover {
     transition: 0.3s;
     filter: contrast(1.5) drop-shadow(0 0 15px red);
 }
-#generate3:hover {
+
+
+.button3:hover {
     transition: 0.3s;
     filter: contrast(1.5) drop-shadow(0 0 15px red);
 }
+
