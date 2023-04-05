@@ -32,7 +32,7 @@ body {
 #random_name {
     font-family: 'New Rocker', cursive;
     font-size: 4vw ;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom:5%;
     text-align: center;
 }
@@ -41,7 +41,7 @@ body {
     width: 8em;
     position: relative;
     left: 34%;
-    padding-bottom: 15%;
+    padding-bottom: 20%;
     text-align: center;
 }
 
