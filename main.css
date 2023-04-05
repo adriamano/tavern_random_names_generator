@@ -1,51 +1,67 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 
-}
-
-.logo {
-    height: 30%;
-    margin-top: 40px;
 }
 
 body {
-    background: url('./img/maxresdefault.jpg') no-repeat;
-    background-size: 100%;
+    display: inline;
+    background-image: url('./img/background.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 1440px;
+
 }
 
-
 .generator {
-
-    padding-top: 30px;
-    margin-top: 10%;
-    margin-bottom: 80px;
-    height: 400px;
-    width: auto;
     text-align: center;
-    background: url("./img/pngwing.com.webp") top no-repeat;
-    background-size: 800px 370px;
+    padding-top: 80px;
+    background-image: url('./img/papiro.png');
+    background-repeat: no-repeat;
+    background-position:20px 115px;
+    background-size: 90% 80%;
+}
+
+.logo {
+    filter: drop-shadow(1px 0 0 rgba(0, 0, 0, 0.411));
+    max-width: 65%;
+    padding-top: 30%;
 }
 
 #random_name {
-    font-size: 25px;
-    margin-bottom: 30px;
     font-family: 'New Rocker', cursive;
+    font-size: 4vw ;
+    margin-top: 10%;
+    margin-bottom:5%;
+    text-align: center;
+}
 
+.button {
+    width: 8em;
+    position: relative;
+    left: 34%;
+    padding-bottom: 15%;
+    text-align: center;
 }
 
 
-.list {
-    cursor: pointer;
-    width: 10%;
-    height: auto;
-    padding: 5px;
-    display: inline;
-}
 
-.list:hover {
-    width: 10.5% ;
+
+
+
+
+
+
+#generate1:hover {
     transition: 0.3s;
     filter: contrast(1.5) drop-shadow(0 0 15px red);
 }
-
+#generate2:hover {
+    transition: 0.3s;
+    filter: contrast(1.5) drop-shadow(0 0 15px red);
+}
+#generate3:hover {
+    transition: 0.3s;
+    filter: contrast(1.5) drop-shadow(0 0 15px red);
+}
